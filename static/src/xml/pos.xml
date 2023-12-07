@@ -6,7 +6,7 @@
                 <t t-if='receipt.company.logo'>
                     <img class="pos-receipt-logo" t-att-src='receipt.company.logo' alt="Logo"/>
                     <br/>
-                    <img t-if="receipt.qr_code" id="qrcode" t-att-src="receipt.qr_code">
+                    
                 </t>
                 <t t-if='!receipt.company.logo'>
                     <h2 class="pos-receipt-center-align">
